@@ -14,7 +14,7 @@ $students =[
 $scores = array_values($students);
 
 $classAvg = average($scores);
-echo "Class Average is " . round($classAvg,2) . "\n";
+echo "Class Average is " . $classAvg . "\n";
 
 
 foreach ($students as $name => $score) {
