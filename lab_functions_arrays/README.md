@@ -1,4 +1,13 @@
 # 213Lab7
+Function Practice
+
+
+- **greet.php**: function that prints "Hello, World!".
+- **greetName.php**: function that greets a user by their name. Function return "Alice" & "Bob" when called with "Alice" & "Bob" as parameter
+- **add.php**: function that return the sum of two numbers.
+- **convertCtoF**: function that takes in Celcius and convert it to Fahrenheit.
+- **safeDivide**: function handles division by zero and return safe division
+
 Practicing Arrays
 
 
