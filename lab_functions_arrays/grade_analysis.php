@@ -13,7 +13,7 @@ $students =[
 
 $scores = array_values($students);
 
-$classAvg = average($students);
+$classAvg = average($scores);
 echo "Class Average is " . round($classAvg,2) . "\n";
 
 
