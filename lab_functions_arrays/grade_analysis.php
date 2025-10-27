@@ -1,10 +1,10 @@
-$students =[
+$students ={
     'Daniel' => 85,
     'Matthew' => 92,
     'Simon' => 78,
     'Lily' = 88,
     'Shondel' => 95
-];
+};
 $scores = array_values($students);
 
 $classAverage = average($scores);
