@@ -40,10 +40,13 @@ We understood that this function is efficient for analyzing data distributions w
 Part 3 Combine Functions and Arrays
 
 1.Average Function 
+
 We made a custom average($scores) function to compute the average of the numeric values in the students array. This shows how one defines a function, one returns data and one echoes it later in the script. Instead of writing the code to loop through the data, we can write a function for receipt of the array of scores to simplify logic.
 
 2.Letter Grade Function
+
 We created a letter_grade function that checks $score for determining what letter grade(A Through F) a score falls in. This was a good exercise in branching (if/else if/ else) structures, and how PHP functions can return different values by applying conditions.
 
 3.Student Grade Analysis
+
 We used both the functions we made in step 1 and step 2 to an associative array containing student names and their scores. Calling average_function on the array's values gives the average score of the class, and calling letter_grade function for each student dynamically assigns each of their grades. We also made use of include to modularize code into different PHP files, this reinforced the idea that functions and arrays can be used together to perform calculations, format clean output, and encourage reusable structured PHP.
